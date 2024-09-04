@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <div className="bg-zinc-900 text-[#b8b2b2] justify-center items-center flex gap-4 w-full h-screen">
+      <div className="bg-zinc-900 selection:bg-[#ba8e3a] selection:text-black text-[#b8b2b2] justify-center items-center flex gap-4 w-full h-screen">
         <Home />
         <div className="bg-zinc-800 overflow-y-auto w-[60%] h-[530px] rounded-lg">
           <div className="flex">

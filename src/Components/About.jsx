@@ -28,7 +28,7 @@ const About = () => {
       <div className=" ml-6">
         <h1 className="text-2xl font-[700]">About Me</h1>
         <hr className="h-[4px] mt-1 bg-[#eeb140] w-[40px]" />
-        <p className="text-justify leading-tight tracking-tighter pr-5 mt-5">
+        <p className="text-justify font-[500] leading-tight tracking-tighter pr-5 mt-5">
           I’m a passionate Front-End Developer with a strong focus on building
           dynamic and responsive web applications using React JS. With a solid
           foundation in HTML, CSS, Tailwind CSS, and JavaScript, I craft
