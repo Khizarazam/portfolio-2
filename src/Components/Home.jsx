@@ -52,15 +52,24 @@ const Home = () => {
         </div>
         <hr className="w-[80%] mt-5" />
         <div className="flex text-2xl justify-evenly w-[50%] mt-5">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+           href="https://www.instagram.com/__choudhary_musa/"
+           target="_blank"
+           title="Instagram"
+           rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+           href="https://www.linkedin.com/in/khizar-azam-47b28530a/" 
+           target="_blank"
+           title="LinkedIn"
+           rel="noopener noreferrer">
             <CiLinkedin />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/Khizarazam"
             target="_blank"
+            title="github"
             rel="noopener noreferrer"
           >
             <SiGithub />

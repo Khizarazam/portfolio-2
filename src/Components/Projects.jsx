@@ -28,12 +28,12 @@ const Projects = () => {
     {
       title: "Animated Project",
       desc: "Lorem ipsum dolor sit amet.",
-      link: ""
+      link: "https://khizarazam.github.io/scroll-animation/"
     },
     {
       title: "Animated Project",
       desc: "Lorem ipsum dolor sit amet.",
-      link: ''
+      link: 'https://khizarazam.github.io/scroll-animate-2/'
     },
   ];
 
@@ -51,7 +51,7 @@ const Projects = () => {
                 <h3 className="text-sm font-[500] pt-2">{desc}</h3>
                 <a href={link} target="_blank" rel="noopener noreferrer">
                   <button className="ml-[180px] hover:bg-zinc-800 mt-8 bg-zinc-500 py-1 px-5 rounded-full">
-                    More
+                    view more
                   </button>
                 </a>
               </div>
@@ -61,15 +61,17 @@ const Projects = () => {
       </div>
       <h1 className="text-3xl text-[#eeb140] font-[700] pt-[50px]">Animated</h1>
       <div className="gap-3 mt-5 grid grid-cols-2 mb-5 pl-4">
-        {animated.map(({ title, desc }) => {
+        {animated.map(({ title, desc, link }) => {
           return (
             <>
               <div className="bg-zinc-700 hover:bg-zinc-600 w-[320px] hover:scale-105 cursor-pointer duration-300 p-3 rounded-lg h-[180px]">
                 <h1 className="text-2xl font-[700] text-[#eeb140]">{title}</h1>
                 <h3 className="text-sm font-[500] pt-2">{desc}</h3>
-                <button className="ml-[180px] hover:bg-zinc-800 mt-8 bg-zinc-500 py-1 px-5 rounded-full">
-                  More
-                </button>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <button className="ml-[180px] hover:bg-zinc-800 mt-8 bg-zinc-500 py-1 px-5 rounded-full">
+                    view more
+                  </button>
+                </a>
               </div>
             </>
           );
